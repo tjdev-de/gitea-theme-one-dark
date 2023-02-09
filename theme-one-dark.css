@@ -1,0 +1,366 @@
+:root {
+	--onedark-bg: #21252b;
+	--onedark-bg-light: #2c313a;
+	
+	--onedark-white: #c5cad3;
+	--onedark-white-light: #c5cad3;
+	--onedark-white-true: #fff;
+	
+	--onedark-gray-light: #a7aebd;
+	--onedark-gray-light-variant: #8c94a2;
+	--onedark-gray: #828997;
+	--onedark-gray-dark: #5c6370;
+	--onedark-gray-dark-dark: #454b54;
+	
+	--onedark-black: #1e2125;
+	--onedark-black-dark: #0c1015;
+	
+	--onedark-red: #e06c75;
+	--onedark-red-light: #feb3b5;
+	--onedark-red-variant: #c2515d;
+	--onedark-red-dark: #6f3333;
+	
+	--onedark-orange: #d19a66;
+	--onedark-orange-variant: #b4804d;
+	
+	--onedark-yellow: #e5c07b;
+	--onedark-yellow-variant: #c8a561;
+	--onedark-yellow-dark: #5f4a1e;
+	
+	--onedark-olive: #bdba6b;
+	--onedark-olive-variant: #a19f52;
+	
+	--onedark-green-true: #98c379;
+	--onedark-green: #8bb66d;
+	--onedark-green-variant-light: #7ea860;
+	--onedark-green-variant: #6c954f;
+	--onedark-green-dark: #3c653c;
+	
+	--onedark-cyan: #56b6c2;
+	--onedark-cyan-variant: #379ba7;
+	
+	--onedark-blue: #61afef;
+	--onedark-blue-variant: #4194d3;
+	
+	--onedark-violet: #9789f5;
+	--onedark-violet-variant: #7b70d8;
+	
+	--onedark-purple: #c678dd;
+	--onedark-purple-variant: #aa5ec1;
+	
+	--onedark-pink: #ec65a9;
+	--onedark-pink-variant: #ce498f;
+	
+	--onedark-brown: #9f754e;
+	--onedark-brown-variant: #89613b;
+	
+	/*--debug: #ff0044;
+	--debug-unknown: #ffff00;
+	--debug-unknown-bg: #220044;*/
+	--debug: var(--debug-unknown);
+	--debug-unknown: var(--onedark-white);
+	--debug-unknown-bg: var(--onedark-bg-light);
+}
+
+
+
+
+
+
+
+
+.chroma .bp { color: var(--onedark-orange); } /* NameBuiltinPseudo */
+
+.chroma .c { color: var(--onedark-gray); } /* Comment */
+.chroma .c1 { color: var(--onedark-gray); } /* CommentSingle */
+.chroma .ch { color: var(--onedark-gray); } /* CommentHashbang */
+.chroma .cm { color: var(--onedark-gray); } /* CommentMultiline */
+.chroma .cp { color: var(--onedark-gray); } /* CommentPreproc */
+.chroma .cpf { color: var(--onedark-gray); } /* CommentPreprocFile */
+.chroma .cs { color: var(--onedark-gray); } /* CommentSpecial */
+
+.chroma .dl { color: var(--debug-unknown); } /* LiteralStringDelimiter */
+.chroma .gd { color: var(--onedark-white); background-color: var(--onedark-red-dark); } /* GenericDeleted */
+.chroma .ge { color: var(--onedark-purple); } /* GenericEmph */
+.chroma .gh { color: var(--onedark-yellow); } /* GenericHeading */
+.chroma .gi { color: var(--onedark-white); background-color: var(--onedark-green-dark); } /* GenericInserted */
+.chroma .go { color: var(--debug-unknown); } /* GenericOutput */
+.chroma .gp { color: var(--onedark-gray); } /* GenericPrompt */
+.chroma .gr { color: var(--debug-unknown); } /* GenericError */
+.chroma .gs { color: var(--onedark-purple); } /* GenericStrong */
+.chroma .gt { color: var(--debug-unknown); } /* GenericTraceback */
+.chroma .gu { color: var(--onedark-yellow); } /* GenericSubheading */
+.chroma .hl { background-color: var(--debug-unknown); } /* LineHighlight */
+.chroma .il { color: var(--debug-unknown); } /* LiteralNumberIntegerLong */
+.chroma .k { color: var(--onedark-purple); } /* Keyword */
+.chroma .kc { color: var(--onedark-orange); } /* KeywordConstant */
+.chroma .kd { color: var(--onedark-purple); } /* KeywordDeclaration */
+.chroma .kn { color: var(--onedark-purple); } /* KeywordNamespace */
+.chroma .kp { color: var(--onedark-purple); } /* KeywordPseudo */
+.chroma .kr { color: var(--onedark-purple); } /* KeywordReserved */
+.chroma .kt { color: var(--onedark-purple); } /* KeywordType */
+.chroma .ln { color: var(--debug-unknown); } /* LineNumbers */
+.chroma .lnt { color: var(--debug-unknown); } /* LineNumbersTable */
+.chroma .m { color: var(--onedark-orange); } /* LiteralNumber */
+.chroma .mb { color: var(--onedark-orange); } /* LiteralNumberBin */
+.chroma .mf { color: var(--onedark-orange); } /* LiteralNumberFloat */
+.chroma .mh { color: var(--onedark-orange); } /* LiteralNumberHex */
+.chroma .mi { color: var(--onedark-orange); } /* LiteralNumberInteger */
+.chroma .mo { color: var(--onedark-orange); } /* LiteralNumberOct */
+.chroma .n { color: var(--onedark-red); } /* Name */
+.chroma .na { color: var(--onedark-blue); } /* NameAttribute */
+.chroma .nb { color: var(--onedark-orange); } /* NameBuiltin */
+.chroma .nc { color: var(--onedark-yellow); } /* NameClass */
+.chroma .nd { color: var(--onedark-orange); } /* NameDecorator */
+.chroma .ne { color: var(--debug-unknown); } /* NameException */
+.chroma .nf { color: var(--onedark-blue); } /* NameFunction */
+.chroma .ni { color: var(--onedark-cyan); } /* NameEntity */
+.chroma .nl { color: var(--debug-unknown); } /* NameLabel */
+.chroma .nn { color: var(--onedark-yellow); } /* NameNamespace */
+.chroma .no { color: var(--onedark-orange); } /* NameConstant */
+.chroma .nt { color: var(--onedark-red); } /* NameTag */
+.chroma .nv { color: var(--onedark-red); } /* NameVariable */
+.chroma .nx { color: var(--onedark-cyan); } /* NameOther */
+.chroma .o { color: var(--onedark-purple); } /* Operator */
+.chroma .ow { color: var(--debug-unknown); } /* OperatorWord */
+.chroma .p { color: var(--onedark-white); } /* Punctuation */
+.chroma .py { color: var(--onedark-blue); }
+.chroma .s { color: var(--onedark-green); } /* LiteralString */
+.chroma .s1 { color: var(--onedark-green); } /* LiteralStringSingle */
+.chroma .s2 { color: var(--onedark-green); } /* LiteralStringDouble */
+.chroma .sa { color: var(--debug-unknown); } /* LiteralStringAffix */
+.chroma .sb { color: var(--onedark-green); } /* LiteralStringBacktick */
+.chroma .sc { color: var(--onedark-green); } /* LiteralStringChar */
+.chroma .sd { color: var(--debug-unknown); } /* LiteralStringDoc */
+.chroma .se { color: var(--onedark-cyan); } /* LiteralStringEscape */
+.chroma .sh { color: var(--debug-unknown); } /* LiteralStringHeredoc */
+.chroma .si { color: var(--onedark-cyan); } /* LiteralStringInterpol */
+.chroma .sr { color: var(--onedark-cyan); } /* LiteralStringRegex */
+.chroma .ss { color: var(--debug-unknown); } /* LiteralStringSymbol */
+.chroma .sx { color: var(--debug-unknown); } /* LiteralStringOther */
+.chroma .vc { color: var(--debug-unknown); } /* NameVariableClass */
+.chroma .vg { color: var(--debug-unknown); } /* NameVariableGlobal */
+.chroma .vi { color: var(--debug-unknown); } /* NameVariableInstance */
+.chroma .w { color: var(--debug-unknown); } /* TextWhitespace */
+
+:root {
+  --is-dark-theme: true;
+  --color-primary: var(--onedark-green-variant-light);
+  --color-primary-contrast: var(--onedark-white-true);
+  --color-secondary: var(--onedark-gray-dark-dark);
+  
+  
+  
+  
+  
+  /* hardcoded lookup */
+  --color-primary-dark-1: #9bc081;
+  --color-primary-dark-2: #aac994;
+  --color-primary-dark-3: #bad3a8;
+  --color-primary-dark-4: #c9ddbb;
+  --color-primary-dark-5: #d9e7cf;
+  --color-primary-dark-6: #e8f0e2;
+  --color-primary-dark-7: #f8faf6;
+  
+  --color-primary-light-1: #789e5e;
+  --color-primary-light-2: #668550;
+  --color-primary-light-3: #536d41;
+  --color-primary-light-4: #405432;
+  --color-primary-light-5: #2d3c23;
+  --color-primary-light-6: #1b2315;
+  --color-primary-light-7: #080b06;
+  
+  --color-primary-alpha-10: #8bb66d19;
+  --color-primary-alpha-20: #8bb66d33;
+  --color-primary-alpha-30: #8bb66d4b;
+  --color-primary-alpha-40: #8bb66d66;
+  --color-primary-alpha-50: #8bb66d80;
+  --color-primary-alpha-60: #8bb66d99;
+  --color-primary-alpha-70: #8bb66db3;
+  --color-primary-alpha-80: #8bb66dcc;
+  --color-primary-alpha-90: #8bb66de1;
+  
+  --color-secondary-dark-1: #535961;
+  --color-secondary-dark-2: #61666f;
+  --color-secondary-dark-3: #6f747c;
+  --color-secondary-dark-4: #7d8289;
+  --color-secondary-dark-5: #8b8f96;
+  --color-secondary-dark-6: #999da4;
+  --color-secondary-dark-7: #a7aab1;
+  --color-secondary-dark-8: #b5b8be;
+  --color-secondary-dark-9: #c3c6cb;
+  --color-secondary-dark-10: #d1d3d9;
+  --color-secondary-dark-11: #dfe1e6;
+  --color-secondary-dark-12: #edeef1;
+  --color-secondary-dark-13: #fbfbfc;
+  
+  --color-secondary-light-1: #373c43;
+  --color-secondary-light-2: #2a2d33;
+  --color-secondary-light-3: #1c1e22;
+  --color-secondary-light-4: #0e0f11;
+  
+  --color-secondary-alpha-10: #454b5419;
+  --color-secondary-alpha-20: #454b5433;
+  --color-secondary-alpha-30: #454b544b;
+  --color-secondary-alpha-40: #454b5466;
+  --color-secondary-alpha-50: #454b5480;
+  --color-secondary-alpha-60: #454b5499;
+  --color-secondary-alpha-70: #454b54b3;
+  --color-secondary-alpha-80: #454b54cc;
+  --color-secondary-alpha-90: #454b54e1;
+  
+  
+  
+  
+  
+  /* colors */
+  --color-red: var(--onedark-red);
+  --color-orange: var(--onedark-orange);
+  --color-yellow: var(--onedark-yellow);
+  --color-olive: var(--onedark-olive);
+  --color-green: var(--onedark-green);
+  --color-teal: var(--onedark-cyan);
+  --color-blue: var(--onedark-blue);
+  --color-violet: var(--onedark-violet);
+  --color-purple: var(--onedark-purple);
+  --color-pink: var(--onedark-pink);
+  --color-brown: var(--onedark-brown);
+  --color-grey: var(--onedark-gray-light);
+  --color-black: var(--onedark-black);
+  /* light variants */
+  --color-red-light: var(--onedark-red-variant);
+  --color-orange-light: var(--onedark-orange-variant);
+  --color-yellow-light: var(--onedark-yellow-variant);
+  --color-olive-light: var(--onedark-olive-variant);
+  --color-green-light: var(--onedark-green-variant);
+  --color-teal-light: var(--onedark-cyan-variant);
+  --color-blue-light: var(--onedark-blue-variant);
+  --color-violet-light: var(--onedark-violet-variant);
+  --color-purple-light: var(--onedark-purple-variant);
+  --color-pink-light: var(--onedark-pink-variant);
+  --color-brown-light: var(--onedark-brown-variant);
+  --color-grey-light: var(--onedark-gray-light-variant);
+  --color-black-light: var(--onedark-black-dark);
+  
+  
+  
+  
+  
+  /* other colors (not changed) */
+  --color-gold: #b1983b;
+  --color-white: #ffffff;
+  --color-diff-removed-word-bg: #6f3333;
+  --color-diff-added-word-bg: #3c653c;
+  --color-diff-removed-row-bg: #3c2626;
+  --color-diff-moved-row-bg: #818044;
+  --color-diff-added-row-bg: #283e2d;
+  --color-diff-removed-row-border: #634343;
+  --color-diff-moved-row-border: #bcca6f;
+  --color-diff-added-row-border: #314a37;
+  --color-diff-inactive: #353846;
+  --color-error-border: #a04141;
+  --color-error-bg: #522;
+  --color-error-bg-active: #744;
+  --color-error-bg-hover: #633;
+  --color-error-text: #f9cbcb;
+  --color-success-border: #458a57;
+  --color-success-bg: #284034;
+  --color-success-text: #6cc664;
+  --color-warning-border: #bb9d00;
+  --color-warning-bg: #3a3a30;
+  --color-warning-text: #fbbd08;
+  --color-info-border: #306090;
+  --color-info-bg: #26354c;
+  --color-info-text: #38a8e8;
+  --color-red-badge: #db2828;
+  --color-red-badge-bg: #db28281a;
+  --color-red-badge-hover-bg: #db28284d;
+  --color-green-badge: #21ba45;
+  --color-green-badge-bg: #21ba451a;
+  --color-green-badge-hover-bg: #21ba454d;
+  --color-yellow-badge: #fbbd08;
+  --color-yellow-badge-bg: #fbbd081a;
+  --color-yellow-badge-hover-bg: #fbbd084d;
+  --color-orange-badge: #f2711c;
+  --color-orange-badge-bg: #f2711c1a;
+  --color-orange-badge-hover-bg: #f2711c4d;
+  --color-git: #f05133;
+  
+  
+  
+  
+  
+  /* target-based colors */
+  --color-body: var(--onedark-bg);
+  --color-box-header: var(--onedark-gray-dark-dark);
+  --color-box-body: var(--onedark-bg-light);
+  --color-box-body-highlight: var(--onedark-gray-dark-dark);
+  --color-text-dark: var(--onedark-white);
+  --color-text: var(--onedark-white);
+  --color-text-light: var(--onedark-white);
+  --color-text-light-1: var(--onedark-gray);
+  --color-text-light-2: var(--onedark-gray);
+  --color-text-light-3: var(--onedark-gray);
+  --color-footer: var(--onedark-bg-light);
+  --color-timeline: var(--onedark-gray-dark);
+  --color-input-text: var(--onedark-white);
+  --color-input-background: var(--onedark-bg-light);
+  --color-input-toggle-background: var(--onedark-gray-dark-dark);
+  --color-input-border: var(--onedark-gray-dark-dark);
+  --color-input-border-hover: var(--onedark-gray-dark);
+  --color-navbar: var(--onedark-bg-light);
+  --color-navbar-transparent: #00000000;
+  --color-light: #00000028;
+  --color-light-mimic-enabled: rgba(0, 0, 0, calc(40 / 255 * 222 / 255 / var(--opacity-disabled)));
+  --color-light-border: #ffffff28;
+  --color-hover: #ffffff10;
+  --color-active: #ffffff16;
+  --color-menu: var(--onedark-bg-light);
+  --color-card: var(--onedark-bg-light);
+  --color-markup-table-row: #ffffff06;
+  --color-markup-code-block: #ffffff0d;
+  --color-button: var(--onedark-gray-dark-dark);
+  --color-code-bg: var(--onedark-bg);
+  --color-code-sidebar-bg: var(--onedark-bg-light);
+  --color-shadow: #00000060;
+  --color-secondary-bg: var(--onedark-bg-light);
+  --color-text-focus: var(--onedark-white-true);
+  --color-expand-button: var(--onedark-gray-dark-dark);
+  --color-placeholder-text: var(--onedark-gray);
+  --color-editor-line-highlight: var(--color-primary-light-5);
+  --color-project-board-bg: var(--color-secondary-light-2);
+  --color-caret: var(--color-text); /* should ideally be --color-text-dark, see #15651 */
+  --color-reaction-bg: #ffffff12;
+  --color-reaction-active-bg: var(--color-primary-alpha-40);
+  --color-header-bar: var(--onedark-bg-light);
+  --color-label-active-bg: var(--onedark-gray-dark-dark);
+  --color-accent: var(--color-primary-light-1);
+  --color-small-accent: var(--color-primary-light-5);
+  --color-active-line: var(--onedark-yellow-dark);
+
+  accent-color: var(--color-accent);
+  color-scheme: dark;
+
+/* invert emojis that are hard to read otherwise */
+.emoji[aria-label="check mark"],
+.emoji[aria-label="currency exchange"],
+.emoji[aria-label="TOP arrow"],
+.emoji[aria-label="END arrow"],
+.emoji[aria-label="ON! arrow"],
+.emoji[aria-label="SOON arrow"],
+.emoji[aria-label="heavy dollar sign"],
+.emoji[aria-label="copyright"],
+.emoji[aria-label="registered"],
+.emoji[aria-label="trade mark"],
+.emoji[aria-label="multiply"],
+.emoji[aria-label="plus"],
+.emoji[aria-label="minus"],
+.emoji[aria-label="divide"],
+.emoji[aria-label="curly loop"],
+.emoji[aria-label="double curly loop"],
+.emoji[aria-label="wavy dash"],
+.emoji[aria-label="paw prints"],
+.emoji[aria-label="musical note"],
+.emoji[aria-label="musical notes"] {
+  filter: invert(100%) hue-rotate(180deg);
+}
