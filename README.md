@@ -1,3 +1,3 @@
-# gitea-theme-one-dark
+# Gitea One Dark Theme
 
 One Dark theme for the [git.tjdev.de](https://git.tjdev.de) gitea instance
