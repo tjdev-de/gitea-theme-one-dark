@@ -53,13 +53,6 @@
 	
 	--onedark-brown: #9f754e;
 	--onedark-brown-variant: #89613b;
-	
-	/*--debug: #ff0044;
-	--debug-unknown: #ffff00;
-	--debug-unknown-bg: #220044;*/
-	--debug: var(--debug-unknown);
-	--debug-unknown: var(--onedark-white);
-	--debug-unknown-bg: var(--onedark-bg-light);
 }
 
 
@@ -70,7 +63,6 @@
 
 
 .chroma .bp { color: var(--onedark-orange); } /* NameBuiltinPseudo */
-
 .chroma .c { color: var(--onedark-gray); } /* Comment */
 .chroma .c1 { color: var(--onedark-gray); } /* CommentSingle */
 .chroma .ch { color: var(--onedark-gray); } /* CommentHashbang */
@@ -78,20 +70,19 @@
 .chroma .cp { color: var(--onedark-gray); } /* CommentPreproc */
 .chroma .cpf { color: var(--onedark-gray); } /* CommentPreprocFile */
 .chroma .cs { color: var(--onedark-gray); } /* CommentSpecial */
-
-.chroma .dl { color: var(--debug-unknown); } /* LiteralStringDelimiter */
+.chroma .dl { color: var(--onedark-cyan); } /* LiteralStringDelimiter */
 .chroma .gd { color: var(--onedark-white); background-color: var(--onedark-red-dark); } /* GenericDeleted */
 .chroma .ge { color: var(--onedark-purple); } /* GenericEmph */
 .chroma .gh { color: var(--onedark-yellow); } /* GenericHeading */
 .chroma .gi { color: var(--onedark-white); background-color: var(--onedark-green-dark); } /* GenericInserted */
-.chroma .go { color: var(--debug-unknown); } /* GenericOutput */
+.chroma .go { color: var(--onedark-white); } /* GenericOutput */
 .chroma .gp { color: var(--onedark-gray); } /* GenericPrompt */
-.chroma .gr { color: var(--debug-unknown); } /* GenericError */
+.chroma .gr { color: var(--onedark-red); } /* GenericError */
 .chroma .gs { color: var(--onedark-purple); } /* GenericStrong */
-.chroma .gt { color: var(--debug-unknown); } /* GenericTraceback */
+.chroma .gt { color: var(--onedark-white); } /* GenericTraceback */
 .chroma .gu { color: var(--onedark-yellow); } /* GenericSubheading */
-.chroma .hl { background-color: var(--debug-unknown); } /* LineHighlight */
-.chroma .il { color: var(--debug-unknown); } /* LiteralNumberIntegerLong */
+.chroma .hl { background-color: var(--onedark-yellow-dark); } /* LineHighlight */
+.chroma .il { color: var(--onedark-orange); } /* LiteralNumberIntegerLong */
 .chroma .k { color: var(--onedark-purple); } /* Keyword */
 .chroma .kc { color: var(--onedark-orange); } /* KeywordConstant */
 .chroma .kd { color: var(--onedark-purple); } /* KeywordDeclaration */
@@ -99,8 +90,8 @@
 .chroma .kp { color: var(--onedark-purple); } /* KeywordPseudo */
 .chroma .kr { color: var(--onedark-purple); } /* KeywordReserved */
 .chroma .kt { color: var(--onedark-purple); } /* KeywordType */
-.chroma .ln { color: var(--debug-unknown); } /* LineNumbers */
-.chroma .lnt { color: var(--debug-unknown); } /* LineNumbersTable */
+.chroma .ln { color: var(--onedark-white); } /* LineNumbers */
+.chroma .lnt { color: var(--onedark-white); } /* LineNumbersTable */
 .chroma .m { color: var(--onedark-orange); } /* LiteralNumber */
 .chroma .mb { color: var(--onedark-orange); } /* LiteralNumberBin */
 .chroma .mf { color: var(--onedark-orange); } /* LiteralNumberFloat */
@@ -112,36 +103,36 @@
 .chroma .nb { color: var(--onedark-orange); } /* NameBuiltin */
 .chroma .nc { color: var(--onedark-yellow); } /* NameClass */
 .chroma .nd { color: var(--onedark-orange); } /* NameDecorator */
-.chroma .ne { color: var(--debug-unknown); } /* NameException */
+.chroma .ne { color: var(--onedark-yellow); } /* NameException */
 .chroma .nf { color: var(--onedark-blue); } /* NameFunction */
 .chroma .ni { color: var(--onedark-cyan); } /* NameEntity */
-.chroma .nl { color: var(--debug-unknown); } /* NameLabel */
+.chroma .nl { color: var(--onedark-red); } /* NameLabel */
 .chroma .nn { color: var(--onedark-yellow); } /* NameNamespace */
 .chroma .no { color: var(--onedark-orange); } /* NameConstant */
 .chroma .nt { color: var(--onedark-red); } /* NameTag */
 .chroma .nv { color: var(--onedark-red); } /* NameVariable */
 .chroma .nx { color: var(--onedark-cyan); } /* NameOther */
 .chroma .o { color: var(--onedark-purple); } /* Operator */
-.chroma .ow { color: var(--debug-unknown); } /* OperatorWord */
+.chroma .ow { color: var(--onedark-purple); } /* OperatorWord */
 .chroma .p { color: var(--onedark-white); } /* Punctuation */
 .chroma .py { color: var(--onedark-blue); }
 .chroma .s { color: var(--onedark-green); } /* LiteralString */
 .chroma .s1 { color: var(--onedark-green); } /* LiteralStringSingle */
 .chroma .s2 { color: var(--onedark-green); } /* LiteralStringDouble */
-.chroma .sa { color: var(--debug-unknown); } /* LiteralStringAffix */
+.chroma .sa { color: var(--onedark-cyan); } /* LiteralStringAffix */
 .chroma .sb { color: var(--onedark-green); } /* LiteralStringBacktick */
 .chroma .sc { color: var(--onedark-green); } /* LiteralStringChar */
-.chroma .sd { color: var(--debug-unknown); } /* LiteralStringDoc */
+.chroma .sd { color: var(--onedark-green); } /* LiteralStringDoc */
 .chroma .se { color: var(--onedark-cyan); } /* LiteralStringEscape */
-.chroma .sh { color: var(--debug-unknown); } /* LiteralStringHeredoc */
-.chroma .si { color: var(--onedark-cyan); } /* LiteralStringInterpol */
+.chroma .sh { color: var(--onedark-cyan); } /* LiteralStringHeredoc */
+.chroma .si { color: var(--onedark-red); } /* LiteralStringInterpol */
 .chroma .sr { color: var(--onedark-cyan); } /* LiteralStringRegex */
-.chroma .ss { color: var(--debug-unknown); } /* LiteralStringSymbol */
-.chroma .sx { color: var(--debug-unknown); } /* LiteralStringOther */
-.chroma .vc { color: var(--debug-unknown); } /* NameVariableClass */
-.chroma .vg { color: var(--debug-unknown); } /* NameVariableGlobal */
-.chroma .vi { color: var(--debug-unknown); } /* NameVariableInstance */
-.chroma .w { color: var(--debug-unknown); } /* TextWhitespace */
+.chroma .ss { color: var(--onedark-orange); } /* LiteralStringSymbol */
+.chroma .sx { color: var(--onedark-cyan); } /* LiteralStringOther */
+.chroma .vc { color: var(--onedark-red); } /* NameVariableClass */
+.chroma .vg { color: var(--onedark-red); } /* NameVariableGlobal */
+.chroma .vi { color: var(--onedark-red); } /* NameVariableInstance */
+.chroma .w { color: var(--onedark-gray); } /* TextWhitespace */
 
 :root {
   --is-dark-theme: true;
