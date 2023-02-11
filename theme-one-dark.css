@@ -63,13 +63,13 @@
 
 
 .chroma .bp { color: var(--onedark-orange); } /* NameBuiltinPseudo */
-.chroma .c { color: var(--onedark-gray); } /* Comment */
-.chroma .c1 { color: var(--onedark-gray); } /* CommentSingle */
-.chroma .ch { color: var(--onedark-gray); } /* CommentHashbang */
-.chroma .cm { color: var(--onedark-gray); } /* CommentMultiline */
-.chroma .cp { color: var(--onedark-gray); } /* CommentPreproc */
-.chroma .cpf { color: var(--onedark-gray); } /* CommentPreprocFile */
-.chroma .cs { color: var(--onedark-gray); } /* CommentSpecial */
+.chroma .c { color: var(--onedark-gray-dark); } /* Comment */
+.chroma .c1 { color: var(--onedark-gray-dark); } /* CommentSingle */
+.chroma .ch { color: var(--onedark-gray-dark); } /* CommentHashbang */
+.chroma .cm { color: var(--onedark-gray-dark); } /* CommentMultiline */
+.chroma .cp { color: var(--onedark-gray-dark); } /* CommentPreproc */
+.chroma .cpf { color: var(--onedark-gray-dark); } /* CommentPreprocFile */
+.chroma .cs { color: var(--onedark-gray-dark); } /* CommentSpecial */
 .chroma .dl { color: var(--onedark-cyan); } /* LiteralStringDelimiter */
 .chroma .gd { color: var(--onedark-white); background-color: var(--onedark-red-dark); } /* GenericDeleted */
 .chroma .ge { color: var(--onedark-purple); } /* GenericEmph */
@@ -122,7 +122,7 @@
 .chroma .sa { color: var(--onedark-cyan); } /* LiteralStringAffix */
 .chroma .sb { color: var(--onedark-green); } /* LiteralStringBacktick */
 .chroma .sc { color: var(--onedark-green); } /* LiteralStringChar */
-.chroma .sd { color: var(--onedark-green); } /* LiteralStringDoc */
+.chroma .sd { color: var(--onedark-gray); } /* LiteralStringDoc */
 .chroma .se { color: var(--onedark-cyan); } /* LiteralStringEscape */
 .chroma .sh { color: var(--onedark-cyan); } /* LiteralStringHeredoc */
 .chroma .si { color: var(--onedark-red); } /* LiteralStringInterpol */
