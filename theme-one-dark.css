@@ -86,7 +86,7 @@
 .chroma .kn { color: var(--onedark-purple); } /* KeywordNamespace */
 .chroma .kp { color: var(--onedark-purple); } /* KeywordPseudo */
 .chroma .kr { color: var(--onedark-purple); } /* KeywordReserved */
-.chroma .kt { color: var(--onedark-purple); } /* KeywordType */
+.chroma .kt { color: var(--onedark-cyan); } /* KeywordType */
 .chroma .ln { color: var(--onedark-white); } /* LineNumbers */
 .chroma .lnt { color: var(--onedark-white); } /* LineNumbersTable */
 .chroma .m { color: var(--onedark-orange); } /* LiteralNumber */
