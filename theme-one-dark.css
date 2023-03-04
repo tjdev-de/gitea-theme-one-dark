@@ -64,8 +64,8 @@
 .chroma .c1 { color: var(--onedark-gray-dark); } /* CommentSingle */
 .chroma .ch { color: var(--onedark-gray-dark); } /* CommentHashbang */
 .chroma .cm { color: var(--onedark-gray-dark); } /* CommentMultiline */
-.chroma .cp { color: var(--onedark-gray-dark); } /* CommentPreproc */
-.chroma .cpf { color: var(--onedark-gray-dark); } /* CommentPreprocFile */
+.chroma .cp { color: var(--onedark-purple); } /* CommentPreproc */
+.chroma .cpf { color: var(--onedark-green); } /* CommentPreprocFile */
 .chroma .cs { color: var(--onedark-gray-dark); } /* CommentSpecial */
 .chroma .dl { color: var(--onedark-cyan); } /* LiteralStringDelimiter */
 .chroma .gd { color: var(--onedark-white); background-color: var(--onedark-red-dark); } /* GenericDeleted */
